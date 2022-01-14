@@ -19,33 +19,23 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <Head>
         <title>{EnvVars.SITE_NAME}</title>
         <meta
-          name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          name="Win-win - A CSR agency"
+          content="Customer Social Responsibility made easy"
         />
       </Head>
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/undraw_connection.svg" title="Match your brand with a suitable cause." overTitle="Perfect Match">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+            We are partners with Social Entities which have a proven track record and ethical profile. This allows us to match every brand with the social cause that fits its’ values, needs, and budget. <strong>We ensure transparency, effectiveness and results.</strong>{' '}
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/undraw_creative_woman.svg" title="Leave everything to us" overTitle="A-Z planning" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            We make CSR easy by being a <strong>one-stop-shop for tailor-made activations.</strong> From idea, planning, production, and deliverables for all touch-points. {' '}
             </p>
-            <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
-            </ul>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
