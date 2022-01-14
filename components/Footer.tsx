@@ -18,12 +18,10 @@ const footerItems: FooterItems = [
     ],
   },
   {
-    title: 'Product',
+    title: 'About Us',
     items: [
-      { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Projects', href: '/features' },
+      { title: 'Mission Statement', href: '/something' },
     ],
   },
   {
@@ -32,16 +30,13 @@ const footerItems: FooterItems = [
       { title: 'Blog', href: '/blog' },
       { title: 'Contact', href: '/contact' },
       { title: 'FAQ', href: '/faq' },
-      { title: 'Help Center', href: '/help-center' },
     ],
   },
   {
-    title: 'Something',
+    title: 'Part of',
     items: [
-      { title: 'Features2', href: '/features2' },
-      { title: 'Something2', href: '/something2' },
-      { title: 'Something else2', href: '/something-else2' },
-      { title: 'And something else2', href: '/and-something-else2' },
+      { title: 'Venture Garden', href: 'https://www.venturegarden.gr/' },
+      { title: 'Orange Grove', href: 'https://orangegrove.eu/' },
     ],
   },
 ];
@@ -75,7 +70,7 @@ export default function Footer() {
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright 2022 Designed and Developed by <NextLink href="https://belowthefold.gr/">Below The Fold</NextLink></Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>

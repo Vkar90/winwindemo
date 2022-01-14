@@ -13,11 +13,10 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>customer social responsibility</OverTitle>
+          <SectionTitle>Want to know how to get in a Win-Win situation?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+          We help you dominate the future and achieve a triple bottom line: Profit, People, Planet. We are committed to doing good. We make sure that all causes are making a social impact with regular follow-ups.
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
@@ -25,9 +24,9 @@ export default function Cta() {
                 Subscribe to the newsletter <span>&rarr;</span>
               </Button>
             </NextLink>
-            <NextLink href="#whitepaper" passHref>
+            <NextLink href="/contact" passHref>
               <OutlinedButton transparent>
-                Features <span>&rarr;</span>
+                Contact <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </ButtonGroup>
