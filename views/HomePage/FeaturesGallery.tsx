@@ -10,28 +10,28 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'CSR made easy',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-3.png',
-    baseColor: '249,82,120',
-    secondColor: '221,9,57',
+      '<p>We make corporate social responsibility easy acting as the missing link between businesses and, often, complex to address, social causes.</p>',
+    imageUrl: '/csr_easy.jpg',
+    baseColor: '198,239,255',
+    secondColor: '171, 219, 237',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Fresh Material',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-4.png',
-    baseColor: '57,148,224',
-    secondColor: '99,172,232',
+      '<p>We believe CSR can be sexy, fresh, and stylish! We deliver press kits, videos, and images from your activations that will take your communication strategy to the next level.</p>',
+    imageUrl: '/fresh_ideas.jpg',
+    baseColor: '232,173,74',
+    secondColor: '255, 190, 82',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'Social change',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
-    imageUrl: '/demo-illustration-5.png',
-    baseColor: '88,193,132',
-    secondColor: '124,207,158',
+      '<p>We are committed to doing good by working closely with social enterprises and social change ambassadors</p>',
+    imageUrl: '/be_the_change.png',
+    baseColor: '39,181,194',
+    secondColor: '30, 198, 212',
   },
 ];
 
@@ -76,8 +76,8 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
-        <SectionTitle>What are you signing in for?</SectionTitle>
+        <OverTitle>why choose us</OverTitle>
+        <SectionTitle>What are you signing up for?</SectionTitle>
       </Content>
       <GalleryWrapper>
         <TabsContainer>{tabsMarkup}</TabsContainer>
