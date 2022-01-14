@@ -3,6 +3,7 @@ import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
+import { TinaCMSProviderProps } from '@tinacms/toolkit';
 import { AppProps } from 'next/dist/shared/lib/router/router';
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
@@ -20,8 +21,9 @@ import { NewsletterModalContextProvider, useNewsletterModalContext } from 'conte
 import { NavItems } from 'types';
 
 const navItems: NavItems = [
-  { title: 'Awesome SaaS Features', href: '/features' },
-  { title: 'Pricing', href: '/pricing' },
+  { title: 'Projects', href: '/features' },
+  { title: 'About', href: '/pricing' },
+  { title: 'Blog', href: '/blog' },
   { title: 'Contact', href: '/contact' },
   { title: 'Sign up', href: '/sign-up', outlined: true },
 ];
@@ -34,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/apple-icon.png" />
         {/* <link rel="alternate" type="application/rss+xml" href={EnvVars.URL + 'rss'} title="RSS 2.0" /> */}
         {/* <script
           dangerouslySetInnerHTML={{
@@ -62,7 +64,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               clientId={process.env.NEXT_PUBLIC_TINA_CLIENT_ID}
               {...pageProps}
             >
-              {(livePageProps: any) => <Component {...livePageProps} />}
+              {(livePageProps: TinaCMSProviderProps) => <Component {...livePageProps} />}
             </TinaCMS>
           }
         >
@@ -89,6 +91,9 @@ function Modals() {
     return null;
   }
   return <NewsletterModal onClose={() => setIsModalOpened(false)} />;
+  
 }
+
+
 
 export default MyApp;
