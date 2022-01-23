@@ -13,7 +13,7 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>customer social responsibility</OverTitle>
+          <OverTitle>corporate social responsibility</OverTitle>
           <SectionTitle>Want to know how to get in a Win-Win situation?</SectionTitle>
           <Description>
           We help you dominate the future and achieve a triple bottom line: Profit, People, Planet. We are committed to doing good. We make sure that all causes are making a social impact with regular follow-ups.
