@@ -5,19 +5,6 @@
     <br/>
 </p>
  
-## Table Of Contents
-
-- [Table Of Contents](#table-of-contents)
-- [🤩 Features](#-features)
-- [🚀 Getting Started](#-getting-started)
-- [One click deploy](#one-click-deploy)
-- [🧰 Built With](#-built-with)
-- [🤲🏻 Contributing](#-contributing)
-  - [Creating A Pull Request](#creating-a-pull-request)
-- [😎 Acknowledgements](#-acknowledgements)
-- [✨ Contributors](#-contributors)
-- [📝 License](#-license)
-
 ## 🤩 Features
 
 - ⚡ **Next.js** - React framework for static rendering
