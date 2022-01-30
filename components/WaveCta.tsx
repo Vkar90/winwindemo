@@ -23,12 +23,12 @@ export default function WaveCta() {
         <Container>
           <Title>A business that makes nothing but money, is a poor kind of business​.</Title>
           <CustomButtonGroup>
-            <Button onClick={() => setIsModalOpened(true)}>
+            {/* <Button onClick={() => setIsModalOpened(true)}>
               Subscribe to the newsletter <span>&rarr;</span>
-            </Button>
-            <NextLink href="/features" passHref>
+            </Button> */}
+            <NextLink href="/contact" passHref>
               <OutlinedButton transparent>
-                Projects <span>&rarr;</span>
+                Contact us <span>&rarr;</span>
               </OutlinedButton>
             </NextLink>
           </CustomButtonGroup>

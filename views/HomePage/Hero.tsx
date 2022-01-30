@@ -19,7 +19,7 @@ export default function Hero() {
         <Description>
         We have a fresh approach to social issues, with <strong>custom CSR activities</strong> designed to raise awareness and make an impact.
         </Description>
-        <CustomButtonGroup>
+        {/* <CustomButtonGroup>
           <Button>
               Discover more <span>&rarr;</span>
           </Button>
@@ -28,7 +28,7 @@ export default function Hero() {
               Projects <span>&rarr;</span>
             </Button>
           </NextLink>
-        </CustomButtonGroup>
+        </CustomButtonGroup> */}
       </Contents>
       <ImageContainer>
         <HeroIllustration />

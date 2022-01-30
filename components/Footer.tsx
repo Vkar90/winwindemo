@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import { FacebookIcon, LinkedinIcon, TwitterIcon } from 'react-share';
+import { FacebookIcon, LinkedinIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
@@ -13,25 +13,26 @@ const footerItems: FooterItems = [
   {
     title: 'Company',
     items: [
+      { title: 'Contact Us', href: '/contact' },
       { title: 'Privacy Policy', href: '/privacy-policy' },
       { title: 'Cookies Policy', href: '/cookies-policy' },
     ],
   },
-  {
-    title: 'About Us',
-    items: [
-      { title: 'Projects', href: '/features' },
-      { title: 'Mission Statement', href: '/something' },
-    ],
-  },
-  {
-    title: 'Knowledge',
-    items: [
-      { title: 'Blog', href: '/blog' },
-      { title: 'Contact', href: '/contact' },
-      { title: 'FAQ', href: '/faq' },
-    ],
-  },
+  // {
+  //   title: 'About Us',
+  //   items: [
+  //     { title: 'Projects', href: '/features' },
+  //     { title: 'Mission Statement', href: '/something' },
+  //   ],
+  // },
+  // {
+  //   title: 'Knowledge',
+  //   items: [
+  //     { title: 'Blog', href: '/blog' },
+  //     { title: 'Contact', href: '/contact' },
+  //     { title: 'FAQ', href: '/faq' },
+  //   ],
+  // },
   {
     title: 'Part of',
     items: [
@@ -52,11 +53,11 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
+            {/* <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
               <a>
-                <TwitterIcon size={50} round={true} />
+                <InstagramIcon size={50} round={true} />
               </a>
-            </NextLink>
+            </NextLink> */}
 
             <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
               <a>
