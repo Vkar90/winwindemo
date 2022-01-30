@@ -19,15 +19,10 @@ export default function Cta() {
           We help you dominate the future and achieve a triple bottom line: Profit, People, Planet. We are committed to doing good. We make sure that all causes are making a social impact with regular follow-ups.
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
-              <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
-              </Button>
-            </NextLink>
             <NextLink href="/contact" passHref>
-              <OutlinedButton transparent>
-                Contact <span>&rarr;</span>
-              </OutlinedButton>
+              <Button>
+                Contact us <span>&rarr;</span>
+              </Button>
             </NextLink>
           </ButtonGroup>
         </Stack>
