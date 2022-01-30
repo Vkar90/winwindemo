@@ -9,7 +9,6 @@ import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
 import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
-import Partners from 'views/HomePage/Partners';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
 
@@ -26,7 +25,6 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
           <BasicSection imageUrl="/undraw_connection.svg" title="Match your brand with a suitable cause." overTitle="Perfect Match">
             <p>
             We are partners with Social Entities which have a proven track record and ethical profile. This allows us to match every brand with the social cause that fits its’ values, needs, and budget. <strong>We ensure transparency, effectiveness and results.</strong>{' '}

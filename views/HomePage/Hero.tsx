@@ -5,11 +5,11 @@ import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
 import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
-import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
+// import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
 
 export default function Hero() {
-  const { setIsModalOpened } = useNewsletterModalContext();
+  // const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
     <HeroWrapper>
@@ -20,8 +20,8 @@ export default function Hero() {
         We have a fresh approach to social issues, with <strong>custom CSR activities</strong> designed to raise awareness and make an impact.
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+          <Button>
+              Discover more <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
