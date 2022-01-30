@@ -43,3 +43,5 @@ yarn build
 ## 📝 License
 
 Distributed under the MIT License. See [LICENSE](https://github.com/Blazity/next-saas-starter/blob/main/LICENSE.md) for more information.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/94214dec-eee8-46c7-aa22-1bddb19d81c5/deploy-status)](https://app.netlify.com/sites/winwincsr/deploys)
