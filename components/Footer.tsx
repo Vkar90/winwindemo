@@ -59,13 +59,13 @@ export default function Footer() {
               </a>
             </NextLink> */}
 
-            <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
+            <NextLink href="#" passHref>
               <a>
                 <FacebookIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.linkedin.com/my-saas-startup" passHref>
+            <NextLink href="#" passHref>
               <a>
                 <LinkedinIcon size={50} round={true} />
               </a>
