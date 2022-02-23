@@ -1,14 +1,11 @@
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection'
-import Container from 'components/Container';
 import Page from 'components/Page';
 import Quote from 'components/Quote'
 import RichText from 'components/RichText';
 import SectionTitle from 'components/SectionTitle';
 import Separator from 'components/Separator';
-import Spacer from 'components/Spacer';
-
-
+import Container from 'components/Container';
 
 // import FaqSection from 'views/PricingPage/FaqSection';
 // import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
@@ -34,9 +31,11 @@ export default function PricingPage() {
           </ul>
           <Separator />
         </Wrapper> 
-          <Quote content={'Our mission is to establish a new era of corporate communication with effective messages, mutual benefit for participating parties and great impact to the society.'} author={'WinWin'} cite={''}> </Quote>
+        <Container>
+      <Blockquote>Our mission is to establish a new era of corporate communication with effective messages, mutual benefit for participating parties and great impact to the society.</Blockquote>
+    </Container>
           <Wrapper>
-            <SectionTitle>Meet the Team</SectionTitle>
+            <SectionTitle className='titleStyle'>Meet the Team</SectionTitle>
             <RichText className="team">
               <h4 className='teamMember'>Ismini Drosoforidi, Co-Founder </h4>
               <p>Α Psychology graduate with marketing working experience, Ismini has been actively involved in local and global NGOs, such as Bodossaki Foundation, ActionAid, Greek Council for Refugees, Global Shapers Athens Hub. A visionary doer that is committed to bridging the gap between corporate communication and social causes.</p>
@@ -65,5 +64,16 @@ const Wrapper = styled.div`
     font-size:1.8rem;
     margin:3rem;
   }
+  .titleStyle{
+    margin-top:8rem;
+  }
 `;
 
+const Blockquote = styled.blockquote`
+  color: rgb(var(--text));
+  display: inline;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-style: italic;
+  hanging-punctuation: first;
+`;
