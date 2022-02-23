@@ -41,7 +41,7 @@ export default function PricingPage() {
               <p>Α Psychology graduate with marketing working experience, Ismini has been actively involved in local and global NGOs, such as Bodossaki Foundation, ActionAid, Greek Council for Refugees, Global Shapers Athens Hub. A visionary doer that is committed to bridging the gap between corporate communication and social causes.</p>
               <Separator />
               <h4 className='teamMember'>Natassa Liapaki, Co-Founder</h4>
-              <p>A journalist in managerial roles for over 10 years, Natassa has an extensive experience in production, content creation, communication strategy and social media management. Always trying to solve problems and change people's mindsets for a good cause.</p>
+              <p>A journalist in managerial roles for over 10 years, Natassa has an extensive experience in production, content creation, communication strategy and social media management. Always trying to solve problems and change people mindsets for a good cause.</p>
             </RichText>
           </Wrapper>
     </Page>
