@@ -26,7 +26,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
+          {/* <Partners /> */}
           <BasicSection imageUrl="/undraw_connection.svg" title="Match your brand with a suitable cause." overTitle="Perfect Match">
             <p>
             We are partners with Social Entities which have a proven track record and ethical profile. This allows us to match every brand with the social cause that fits its’ values, needs, and budget. <strong>We ensure transparency, effectiveness and results.</strong>{' '}
