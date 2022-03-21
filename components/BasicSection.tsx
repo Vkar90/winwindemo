@@ -81,10 +81,12 @@ const BasicSectionWrapper = styled(Container)`
 
   ${ImageContainer} {
     margin: ${(p: Props) => (p.reversed ? '0 0 0 5rem' : '0 5rem 0 0')};
+    height: 60vh;
   }
 
   ${media('<=desktop')} {
     flex-direction: column;
+    height: 100vh;
 
     ${ImageContainer} {
       margin: 0 0 2.5rem 0;

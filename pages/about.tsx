@@ -1,20 +1,14 @@
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection'
+import Container from 'components/Container';
 import Page from 'components/Page';
-import Quote from 'components/Quote'
-import RichText from 'components/RichText';
 import SectionTitle from 'components/SectionTitle';
 import Separator from 'components/Separator';
-import Container from 'components/Container';
 
-// import FaqSection from 'views/PricingPage/FaqSection';
-// import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
 
 export default function PricingPage() {
   return (
     <Page title="About us" description="Learn more about our Team and Mission">
-        {/* <PricingTablesSection />
-        <FaqSection /> */}
         <BasicSection imageUrl="/undraw_teamwork.svg" title="A few words about us" overTitle="Win Win CSR">
             <p>
             WinWin is an agency acting as <strong>the missing link</strong> between businesses and, often, complex to address, social causes. We help companies reinforce their social profile by running CSR activities which upgrade their corporate communication (win) and address actual social causes (win).
@@ -34,16 +28,19 @@ export default function PricingPage() {
         <Container>
       <Blockquote>Our mission is to establish a new era of corporate communication with effective messages, mutual benefit for participating parties and great impact to the society.</Blockquote>
     </Container>
-          <Wrapper>
-            <SectionTitle className='titleStyle'>Meet the Team</SectionTitle>
-            <RichText className="team">
-              <h4 className='teamMember'>Ismini Drosoforidi, Co-Founder </h4>
-              <p>Α Psychology graduate with marketing working experience, Ismini has been actively involved in local and global NGOs, such as Bodossaki Foundation, ActionAid, Greek Council for Refugees, Global Shapers Athens Hub. A visionary doer that is committed to bridging the gap between corporate communication and social causes.</p>
-              <Separator />
-              <h4 className='teamMember'>Natassa Liapaki, Co-Founder</h4>
-              <p>A journalist in managerial roles for over 10 years, Natassa has an extensive experience in production, content creation, communication strategy and social media management. Always trying to solve problems and change people mindsets for a good cause.</p>
-            </RichText>
-          </Wrapper>
+    <Separator />
+        <SectionTitle className='firstTitle'>Meet the Team</SectionTitle>
+        <BasicSection imageUrl="/ismini2.jpeg" title="Ismini Drosoforidi" overTitle="Co-Founder" reversed>
+        <p>
+        Α Psychology graduate with marketing working experience, Ismini has been actively involved in local and global NGOs, such as Bodossaki Foundation, ActionAid, Greek Council for Refugees, Global Shapers Athens Hub. A visionary doer that is committed to bridging the gap between corporate communication and social causes.
+        </p>
+      </BasicSection>
+      <Separator />
+        <BasicSection imageUrl="/natasa1.jpg" title="Natasa Liapaki" overTitle="Co-Founder">
+        <p>
+        A journalist in managerial roles for over 10 years, Natassa has an extensive experience in production, content creation, communication strategy and social media management. Always trying to solve problems and change people mindsets for a good cause.
+        </p>
+      </BasicSection>
     </Page>
   );
 }
@@ -70,9 +67,11 @@ const Wrapper = styled.div`
 `;
 
 const Blockquote = styled.blockquote`
-  color: rgb(var(--text));
-  display: inline;
-  font-size: 2.2rem;
+  color: #01BFA6;
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-align: center;
   line-height: 3rem;
   font-style: italic;
   hanging-punctuation: first;
