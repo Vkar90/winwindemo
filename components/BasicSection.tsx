@@ -66,6 +66,7 @@ const ImageContainer = styled.div`
 
   :hover{
   filter: grayscale(100%);
+  transition: 1s ease-in-out;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   }
