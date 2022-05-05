@@ -30,12 +30,12 @@ export default function PricingPage() {
     </Container>
     <Separator />
         <SectionTitle className='firstTitle'>Meet the Team</SectionTitle>
-        <BasicSection imageUrl="/ismini2.jpeg" title="Ismini Drosoforidi" overTitle="Co-Founder" reversed>
+        <BasicSection imageUrl="/ismini-colored.jpeg" title="Ismini Drosoforidi" overTitle="Co-Founder" reversed>
         <p>
         Α Psychology graduate with marketing working experience, Ismini has been actively involved in local and global NGOs, such as Bodossaki Foundation, ActionAid, Greek Council for Refugees, Global Shapers Athens Hub. A visionary doer that is committed to bridging the gap between corporate communication and social causes.
         </p>
-      </BasicSection>
-      <Separator />
+      </BasicSection>   
+      <Separator /> 
         <BasicSection imageUrl="/natasa1.jpg" title="Natasa Liapaki" overTitle="Co-Founder">
         <p>
         A journalist in managerial roles for over 10 years, Natassa has an extensive experience in production, content creation, communication strategy and social media management. Always trying to solve problems and change people mindsets for a good cause.

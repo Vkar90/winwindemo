@@ -17,7 +17,7 @@ export default function BasicSection({ imageUrl, title, overTitle, reversed, chi
   return (
     <BasicSectionWrapper reversed={reversed}>
       <ImageContainer>
-        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="cover" />
+        <NextImage src={imageUrl} alt={title} layout="fill" objectFit="contain" />
       </ImageContainer>
       <ContentContainer>
         <CustomOverTitle>{overTitle}</CustomOverTitle>
@@ -47,7 +47,7 @@ const CustomOverTitle = styled(OverTitle)`
 
 const ImageContainer = styled.div`
   flex: 1;
-
+  
   position: relative;
   &:before {
     display: block;
@@ -62,6 +62,12 @@ const ImageContainer = styled.div`
     right: 0;
     bottom: 0;
     left: 0;
+  }
+
+  :hover{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
   }
 
   ${media('<=desktop')} {
@@ -80,8 +86,7 @@ const BasicSectionWrapper = styled(Container)`
   flex-direction: ${(p: Props) => (p.reversed ? 'row-reverse' : 'row')};
 
   ${ImageContainer} {
-    margin: ${(p: Props) => (p.reversed ? '0 0 0 5rem' : '0 5rem 0 0')};
-    height: 60vh;
+    margin: ${(p: Props) => (p.reversed ? '0 0 0 5rem' : '0 5rem 0 0')}; 
   }
 
   ${media('<=desktop')} {
