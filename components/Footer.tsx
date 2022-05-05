@@ -13,6 +13,7 @@ const footerItems: FooterItems = [
   {
     title: 'Company',
     items: [
+      { title: 'The Podcast', href: 'https://open.spotify.com/episode/2M1b8s5cy5EP9JSj2G2GAL?si=f0ca708d3b8f4924' },
       { title: 'Contact Us', href: '/contact' },
       { title: 'Privacy Policy', href: '/privacy-policy' },
       { title: 'Cookies Policy', href: '/cookies-policy' },

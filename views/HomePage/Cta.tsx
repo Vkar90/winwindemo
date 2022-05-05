@@ -18,6 +18,7 @@ export default function Cta() {
           <Description>
           We help you dominate the future and achieve a triple bottom line: Profit, People, Planet. We are committed to doing good. We make sure that all causes are making a social impact with regular follow-ups.
           </Description>
+          <iframe style={{borderRadius:"12px"}} title="CSR podcast on Athen's Voice" src="https://open.spotify.com/embed/episode/2M1b8s5cy5EP9JSj2G2GAL?utm_source=generator&t=0" width={"100%"} height={232} frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           <ButtonGroup>
             <NextLink href="/contact" passHref>
               <Button>

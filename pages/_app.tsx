@@ -22,6 +22,7 @@ import { NavItems } from 'types';
 
 const navItems: NavItems = [
   // { title: 'Projects', href: '/features' },
+  { title: 'The Podcast', href: 'https://open.spotify.com/episode/2M1b8s5cy5EP9JSj2G2GAL?si=8f19a6cd4d5a45ed' },
   { title: 'About', href: '/about' },
   // { title: 'Blog', href: '/blog' },
   { title: 'Contact', href: '/contact' },
